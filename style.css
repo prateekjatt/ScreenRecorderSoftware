@@ -1,0 +1,109 @@
+body{
+    padding:0;
+    margin:0;
+    height: 100vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.titlebar{
+    -webkit-app-region:drag;
+    display: flex;
+    height:5%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(86 86 86);
+}
+
+.titlebar button{
+    -webkit-app-region:no-drag;
+}
+
+.titlebar .menubar{
+    height: 100%;
+}
+.titlebar .menubar img{
+    height: 100%;
+}
+
+.titlebar .winctrl{
+    margin: 0px;
+    padding:0px;
+    height: 100%;
+}
+
+.winctrl button{
+    background-color: rgb(86, 86, 86);
+    border:none;
+    border-radius: 0;
+    margin:0;
+    font-size: 20px;
+    height: 100%;
+}
+.winctrl button:hover{
+    background-color: rgb(105, 105, 105);
+    border:none;
+
+}
+.winctrl button:active{
+    background-color: rgb(105, 105, 105);
+    border:none;
+    margin: 0;
+
+}
+
+h1{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.container{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    height:70%;
+}
+video{
+    margin:10px;
+    height:70%;
+    border:0.2px solid white;
+}
+
+button{
+    color: white;
+    font-weight: bold;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+    height:70%;
+    box-sizing: border-box;
+}
+
+button:hover{
+    background-color: rgb(84, 141, 143);
+}
+
+button:active{
+    border:2px solid white;
+    margin: 8px;
+}
+
+.start{
+    background-color: rgb(81, 168, 81);
+}
+.start:hover{
+    background-color: rgb(66, 148, 66);
+}
+.stop{
+    background-color: rgb(168, 81, 81);
+}
+.stop:hover{
+    background-color: rgb(145, 64, 64);
+}
