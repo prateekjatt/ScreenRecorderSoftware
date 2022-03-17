@@ -49,10 +49,10 @@ async function setScreen(){
             mandatory:{
                 chromeMediaSource:'desktop',
                 chromeMediaSourceId:cur_id,
-                minWidth: 3*window.innerWidth/4,
-                maxWidth: 3*window.innerWidth/4,
-                minHeight: 3*window.innerHeight/4,
-                maxHeight: 3*window.innerHeight/4,
+                minWidth: screen.width,
+                maxWidth: screen.width,
+                minHeight: screen.height,
+                maxHeight: screen.height,
             }
         }
     })
